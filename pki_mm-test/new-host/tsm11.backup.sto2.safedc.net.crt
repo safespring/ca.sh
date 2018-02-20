@@ -1,0 +1,97 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=SE, O=Safedc.net, OU=Datacenter Operations, CN=Safedc.net External CA
+        Validity
+            Not Before: Feb 20 20:43:55 2018 GMT
+            Not After : Feb 19 20:43:55 2023 GMT
+        Subject: C=SE, O=Safedc.net, OU=Datacenter Operations, CN=tsm11.backup.sto2.safedc.net
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:da:86:71:13:92:4c:bc:0f:5a:8c:07:2f:6b:54:
+                    81:cf:8b:82:5b:e0:67:91:66:28:3c:60:25:25:ef:
+                    96:34:95:62:f9:d2:ac:33:17:7f:e0:f8:03:79:25:
+                    17:02:65:f8:81:69:50:c5:d9:4d:00:5e:b5:82:bd:
+                    e6:07:13:c2:ee:02:6a:e1:aa:b9:e3:76:db:ac:4e:
+                    eb:4f:23:b7:0a:a8:f3:cb:4d:6d:7d:90:ff:55:8d:
+                    fd:bd:bf:d6:ef:68:74:0c:ea:75:00:18:6e:01:bd:
+                    e3:b8:8a:d8:4b:b8:f8:d0:29:2d:dd:17:d9:7b:d2:
+                    cd:2d:1b:70:74:2a:1f:fa:24:f9:50:5d:2e:7b:2f:
+                    9c:e3:4d:ff:af:b3:a4:7c:67:86:18:17:2c:94:62:
+                    24:33:f9:d8:b0:f1:c6:e6:64:32:17:ba:a4:45:cd:
+                    76:98:15:75:40:a3:9e:42:a3:87:b6:b1:19:37:3c:
+                    70:51:d4:69:40:98:af:09:36:52:c7:a1:f1:44:92:
+                    21:1b:58:10:8f:0c:75:08:65:af:36:cb:96:29:a2:
+                    26:32:b3:0b:86:73:8f:b1:b7:f5:08:84:94:b3:ab:
+                    58:64:24:b0:69:16:b6:57:84:33:6d:4a:c5:21:14:
+                    b1:cf:ad:a9:37:1e:04:31:51:20:a3:42:3c:62:87:
+                    60:eb
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                79:56:EC:35:05:08:B5:BB:F3:C4:CB:8B:3B:CD:6B:9E:1F:9A:6E:7A
+            X509v3 Authority Key Identifier: 
+                keyid:14:9F:15:9C:32:CB:5C:14:63:29:7B:08:BF:F2:44:44:46:32:DF:A0
+                DirName:/C=SE/O=Safedc.net/OU=Datacenter Operations/CN=Safedc.net Root CA
+                serial:01
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://pki.safedc.net/external.crl
+
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Subject Alternative Name: 
+                DNS:tsm11.backup.sto2.safedc.net
+    Signature Algorithm: sha256WithRSAEncryption
+         4d:59:33:96:d7:28:c5:df:30:37:32:bf:1c:e4:79:20:55:9c:
+         77:cc:d7:76:17:fb:e0:ab:54:7a:2e:93:1b:ae:06:2c:5a:74:
+         fd:83:02:52:b6:bc:29:65:2e:e2:2e:9b:68:46:89:e0:ae:44:
+         63:49:99:70:05:b4:4a:95:5d:60:9c:9b:96:9d:06:8d:2c:cc:
+         7d:c9:73:79:5b:b2:2a:c3:b9:be:f9:59:00:f9:6b:57:d9:c6:
+         da:ce:eb:aa:c8:a5:75:92:a0:b9:f6:90:a6:5a:48:e7:9e:bf:
+         0b:0a:5a:09:a1:8d:f2:68:a7:7c:4d:dc:0e:91:3e:7f:58:5c:
+         a7:4c:45:ae:f0:d2:87:2c:e4:cf:74:46:80:d7:a2:d5:b6:3e:
+         65:27:e3:cd:bf:4f:4e:d0:cd:9b:17:81:53:f0:2f:c8:4b:f4:
+         44:36:ce:c8:69:48:46:17:57:f6:9c:e5:a7:20:88:7b:2c:2d:
+         f7:8f:08:30:1c:9b:22:43:4c:af:af:9c:fb:47:74:55:5b:61:
+         c9:7e:d6:49:ea:c3:38:60:24:e6:cc:ed:21:de:92:6c:51:9d:
+         db:95:3e:41:dc:58:e8:e1:16:02:4c:75:58:75:c5:07:da:6b:
+         38:90:8a:19:28:08:7a:eb:bb:58:4d:0a:8d:e2:51:9a:f4:27:
+         56:b7:1e:e0
+-----BEGIN CERTIFICATE-----
+MIIEkjCCA3qgAwIBAgIBATANBgkqhkiG9w0BAQsFADBjMQswCQYDVQQGEwJTRTET
+MBEGA1UECgwKU2FmZWRjLm5ldDEeMBwGA1UECwwVRGF0YWNlbnRlciBPcGVyYXRp
+b25zMR8wHQYDVQQDDBZTYWZlZGMubmV0IEV4dGVybmFsIENBMB4XDTE4MDIyMDIw
+NDM1NVoXDTIzMDIxOTIwNDM1NVowaTELMAkGA1UEBhMCU0UxEzARBgNVBAoMClNh
+ZmVkYy5uZXQxHjAcBgNVBAsMFURhdGFjZW50ZXIgT3BlcmF0aW9uczElMCMGA1UE
+AwwcdHNtMTEuYmFja3VwLnN0bzIuc2FmZWRjLm5ldDCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBANqGcROSTLwPWowHL2tUgc+LglvgZ5FmKDxgJSXvljSV
+YvnSrDMXf+D4A3klFwJl+IFpUMXZTQBetYK95gcTwu4CauGqueN226xO608jtwqo
+88tNbX2Q/1WN/b2/1u9odAzqdQAYbgG947iK2Eu4+NApLd0X2XvSzS0bcHQqH/ok
++VBdLnsvnONN/6+zpHxnhhgXLJRiJDP52LDxxuZkMhe6pEXNdpgVdUCjnkKjh7ax
+GTc8cFHUaUCYrwk2Useh8USSIRtYEI8MdQhlrzbLlimiJjKzC4Zzj7G39QiElLOr
+WGQksGkWtleEM21KxSEUsc+tqTceBDFRIKNCPGKHYOsCAwEAAaOCAUkwggFFMB0G
+A1UdDgQWBBR5Vuw1BQi1u/PEy4s7zWueH5puejCBiAYDVR0jBIGAMH6AFBSfFZwy
+y1wUYyl7CL/yRERGMt+goWOkYTBfMQswCQYDVQQGEwJTRTETMBEGA1UECgwKU2Fm
+ZWRjLm5ldDEeMBwGA1UECwwVRGF0YWNlbnRlciBPcGVyYXRpb25zMRswGQYDVQQD
+DBJTYWZlZGMubmV0IFJvb3QgQ0GCAQEwMwYDVR0fBCwwKjAooCagJIYiaHR0cDov
+L3BraS5zYWZlZGMubmV0L2V4dGVybmFsLmNybDAMBgNVHRMBAf8EAjAAMA4GA1Ud
+DwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwJwYDVR0R
+BCAwHoIcdHNtMTEuYmFja3VwLnN0bzIuc2FmZWRjLm5ldDANBgkqhkiG9w0BAQsF
+AAOCAQEATVkzltcoxd8wNzK/HOR5IFWcd8zXdhf74KtUei6TG64GLFp0/YMCUra8
+KWUu4i6baEaJ4K5EY0mZcAW0SpVdYJyblp0GjSzMfclzeVuyKsO5vvlZAPlrV9nG
+2s7rqsildZKgufaQplpI556/CwpaCaGN8minfE3cDpE+f1hcp0xFrvDShyzkz3RG
+gNei1bY+ZSfjzb9PTtDNmxeBU/AvyEv0RDbOyGlIRhdX9pzlpyCIeywt948IMByb
+IkNMr6+c+0d0VVthyX7WSerDOGAk5sztId6SbFGd25U+QdxY6OEWAkx1WHXFB9pr
+OJCKGSgIeuu7WE0KjeJRmvQnVrce4A==
+-----END CERTIFICATE-----
